@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Understanding Scope in JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+  <div id="container">
+  
+       <header>
+        <h1 lang="es">Dominando el Ámbito en JavaScript</h1>
+        <h1 lang="en">Understanding Scope in JavaScript</h1>
+        <p lang="es">En JavaScript, el ámbito determina la accesibilidad de las variables en diferentes partes del código. Hay variables globales y variables locales.</p>
+        <p lang="en">In JavaScript, scope determines the accessibility of variables in different parts of the code. There are global variables and local variables.</p>
+      </header>
+    <div id="explanation">
+      <h2 lang="es">Ejemplo Práctico</h2>
+      <h2 lang="en">Practical Example</h2>
+      <div id="result-container"></div>
+    </div>
+      <!-- Ejercicio 1 -->
+      <div class="exercise-item">
+        <p lang="es">1. ¿Qué sucede si creamos una variable local dentro de un bloque condicional y luego intentamos acceder a ella fuera del bloque?</p>
+        <p lang="en">1. What happens if we create a local variable inside a conditional block and then try to access it outside the block?</p>
+        <div id="options-1" class="options-container">
+          <label><input type="radio" name="answer-1" value="a"> a) Se accede correctamente</label>
+          <label><input type="radio" name="answer-1" value="b"> b) Genera un error</label>
+          <label><input type="radio" name="answer-1" value="c"> c) Retorna undefined</label>
+        </div>
+        <button id="exercise-btn-1" lang="es">Comprobar Respuesta</button>
+        <div id="exercise-result-1"></div>
+      </div>
+
+      <!-- Ejercicio 2 -->
+      <div class="exercise-item">
+        <p lang="es">2. ¿Cómo afecta el ámbito al uso de variables en funciones anidadas?</p>
+        <p lang="en">2. How does scope affect the use of variables in nested functions?</p>
+        <div id="options-2" class="options-container">
+          <label><input type="radio" name="answer-2" value="a"> a) No afecta</label>
+          <label><input type="radio" name="answer-2" value="b"> b) Las variables externas se ocultan</label>
+          <label><input type="radio" name="answer-2" value="c"> c) Las variables internas se ocultan</label>
+        </div>
+        <button id="exercise-btn-2" lang="es">Comprobar Respuesta</button>
+        <div id="exercise-result-2"></div>
+      </div>
+      <!-- Ejercicio 3 -->
+      <div class="exercise-item">
+        <p lang="es">3. ¿Puedes prever el resultado de este código que involucra el uso de 'let'?</p>
+        <p lang="en">3. Can you predict the result of this code involving the use of 'let'?</p>
+        <div id="options-3" class="options-container">
+          <label><input type="radio" name="answer-3" value="a"> a) Retorna undefined</label>
+          <label><input type="radio" name="answer-3" value="b"> b) Genera un error</label>
+          <label><input type="radio" name="answer-3" value="c"> c) Retorna 'Soy una variable local'</label>
+        </div>
+        <button id="exercise-btn-3" lang="es">Comprobar Respuesta</button>
+        <div id="exercise-result-3"></div>
+      </div>
+
+      <!-- Ejercicio 4 -->
+      <div class="exercise-item">
+        <p lang="es">4. ¿Qué sucede cuando intentamos acceder a una variable local antes de su declaración en el código?</p>
+        <p lang="en">4. What happens when we try to access a local variable before its declaration in the code?</p>
+        <div id="options-4" class="options-container">
+          <label><input type="radio" name="answer-4" value="a"> a) Se accede correctamente</label>
+          <label><input type="radio" name="answer-4" value="b"> b) Genera un error</label>
+          <label><input type="radio" name="answer-4" value="c"> c) Retorna undefined</label>
+        </div>
+        <button id="exercise-btn-4" lang="es">Comprobar Respuesta</button>
+        <div id="exercise-result-4"></div>
+      </div>
+
+      <!-- Ejercicio 5 -->
+      <div class="exercise-item">
+        <p lang="es">5. ¿Cómo se comporta el ámbito en un bucle?</p>
+        <p lang="en">5. How does scope behave in a loop?</p>
+        <div id="options-5" class="options-container">
+          <label><input type="radio" name="answer-5" value="a"> a) Las variables tienen ámbito de bloque</label>
+          <label><input type="radio" name="answer-5" value="b"> b) Las variables tienen ámbito de función</label>
+          <label><input type="radio" name="answer-5" value="c"> c) Las variables son globales</label>
+        </div>
+        <button id="exercise-btn-5" lang="es">Comprobar Respuesta</button>
+        <div id="exercise-result-5"></div>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+  
+  
+  
+  

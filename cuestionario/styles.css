@@ -1,0 +1,112 @@
+/* styles.css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* styles.css */
+html {
+    padding: 0;
+  }
+  
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 150vh;
+  }
+  
+  #container {
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+  }
+  
+  header {
+    background-color: #e42e44;
+    padding: 20px;
+   
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  /* Resto de los estilos... */
+  
+  
+  
+  
+  #explanation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFBC0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 100px;
+    background-color: #c00457;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Resto de los estilos... */
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .options-container {
+    margin-top: 10px;
+  }
+  
+  .options-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #exercise-result-1,
+  #exercise-result-2,
+  #exercise-result-3,
+  #exercise-result-4,
+  #exercise-result-5 {
+    margin: 0px 800px;
+    font-size: 18px;
+    background-color: #e42e44;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para cada sección de preguntas */
+  .exercise-item {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ecf0f1;
+  }
+  
+  .exercise-item:nth-child(odd) {
+    background-color: #ff946a;
+  }
+  
+  .exercise-item:nth-child(even) {
+    background-color: #ff946a;
+  }
+  
